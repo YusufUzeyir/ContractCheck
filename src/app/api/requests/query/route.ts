@@ -95,7 +95,6 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({
       success: true,
       data: {
-        id: matchedRow.id,
         shortId: matchedRow.id.split("-")[0]?.toUpperCase(),
         name: matchedRow.name,
         service: matchedRow.service,

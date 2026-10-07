@@ -1,11 +1,10 @@
 "use client";
 
 import React, { useState } from "react";
-import { Search, Loader2, CheckCircle2, AlertCircle, FileText, Calendar, User, Tag } from "lucide-react";
+import { Search, Loader2, CheckCircle2, AlertCircle, Calendar, User, Tag } from "lucide-react";
 import { SERVICE_PACKAGES } from "@/config/services";
 
 interface QueryResult {
-  id: string;
   shortId: string;
   name: string;
   service: string;
@@ -146,14 +145,6 @@ export function RequestLookup() {
                     <span className="font-medium text-slate-800">
                       {new Date(result.createdAt).toLocaleString("tr-TR")}
                     </span>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-2.5">
-                  <FileText className="w-4 h-4 text-slate-400 shrink-0 mt-0.5" aria-hidden="true" />
-                  <div>
-                    <span className="text-xs text-slate-500 block">Veritabanı Kimliği</span>
-                    <span className="font-mono text-xs text-slate-600 break-all">{result.id}</span>
                   </div>
                 </div>
               </div>

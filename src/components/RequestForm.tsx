@@ -228,9 +228,6 @@ export function RequestForm() {
                     <span className="font-mono font-bold text-base text-slate-900 select-all">
                       {successData.shortId}
                     </span>
-                    <span className="text-slate-400 block text-[11px] font-mono mt-0.5">
-                      (UUID: {successData.id})
-                    </span>
                   </div>
                   <div className="mt-5">
                     <button
