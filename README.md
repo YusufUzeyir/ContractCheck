@@ -8,11 +8,12 @@ ContractCheck, karmaşık hukuki jargonu ve sözleşme maddelerindeki dengesizli
 
 ## 1. Mimari Kararlar ve Teknik Yığın
 
-- **Next.js 15 (App Router)** & **React 19**: Modern SSR/CSR hibrit mimarisi, yüksek performans ve optimize edilmiş asset yönetimi.
+- **Next.js 16 (App Router)** & **React 19**: Modern SSR/CSR hibrit mimarisi, yüksek performans ve optimize edilmiş asset yönetimi.
 - **TypeScript**: Tam tip güvenliği ve derleme zamanı hata denetimi.
 - **Tailwind CSS**: Mobil öncelikli (mobile-first), 360px genişlikten itibaren taşmasız, duyarlı ve erişilebilir arayüz tasarımı.
 - **Zod (Tek Şema / Single Source of Truth)**: Hem istemci (`client-side`) form etkileşiminde hem de API (`server-side`) rotasında harfi harfine aynı şema (`src/lib/validations.ts`) kullanılarak çift katmanlı doğrulama sağlanır. İstemciye asla güvenilmez.
-- **Supabase (PostgreSQL)**: Kalıcı ve güvenli veri depolama. Satır Düzeyinde Güvenlik (RLS) politikaları ve parametreli sorgularla çalışır.
+- **Supabase (PostgreSQL)**: Canlı ortamda kalıcı ve güvenli veri depolama. Satır Düzeyinde Güvenlik (RLS) politikaları ve parametreli sorgularla çalışır.
+- **Canlı Referans Sorgulama Modülü**: Kullanıcıların form gönderimi sonrası aldıkları müşteri takip kodu ile taleplerini doğrudan Supabase üzerinden sorgulayabilmeleri sağlandı (iç UUID gizlenerek güvenli veri sunulur).
 - **Vitest**: Zod doğrulama şeması sınır değer testleri ve API route entegrasyon testleri için hızlı test çalıştırma ortamı.
 - **Güvenlik Başlıkları & Rate Limit**: `next.config.js` üzerinde yapılandırılmış CSP, X-Frame-Options, X-Content-Type-Options; API route üzerinde IP bazlı hız sınırlaması (dakikada maks 5 istek), body boyut kontrolü ve gizli honeypot bot engeli.
 
@@ -116,8 +117,8 @@ npm run lint
 
 ## 5. Canlı Dağıtım (Vercel)
 
-- Canlı URL: `[VERCEL DEPLOY SONRASI EKLENECEK / CANLI YAYIN]`
-- Son Teslim Commit Kimliği: `416adfa05b23fc1bdd8619ab7ecad5adb9930701`
+- Canlı URL: [https://contractcheck-chi.vercel.app](https://contractcheck-chi.vercel.app)
+- Son Teslim Commit Kimliği: `a7bf3f478bc186c7292a223600bbc4a4edefbe9b`
 
 ---
 
