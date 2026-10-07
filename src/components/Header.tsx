@@ -32,6 +32,9 @@ export function Header() {
           <a href="#faq" className="hover:text-brand-600 transition-colors py-2">
             SSS
           </a>
+          <a href="#lookup" className="hover:text-brand-600 transition-colors py-2 font-semibold text-brand-600">
+            Talep Sorgula
+          </a>
         </nav>
 
         <div className="flex items-center gap-3">

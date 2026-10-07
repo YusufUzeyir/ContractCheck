@@ -6,6 +6,7 @@ import { Packages } from "@/components/Packages";
 import { SampleReport } from "@/components/SampleReport";
 import { FAQ } from "@/components/FAQ";
 import { RequestForm } from "@/components/RequestForm";
+import { RequestLookup } from "@/components/RequestLookup";
 import { Footer } from "@/components/Footer";
 
 export default function Home() {
@@ -33,8 +34,11 @@ export default function Home() {
 
         {/* 7. Talep Formu */}
         <RequestForm />
+
+        {/* 8. Referans / Takip Numarası Sorgulama */}
+        <RequestLookup />
       </main>
-      {/* 8. Footer */}
+      {/* 9. Footer */}
       <Footer />
     </>
   );

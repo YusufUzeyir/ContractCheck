@@ -76,14 +76,14 @@ export function Footer() {
                 <Phone className="w-4 h-4 text-slate-500 shrink-0 mt-0.5" aria-hidden="true" />
                 <div>
                   <span className="block text-xs text-slate-500">Danışma Hattı</span>
-                  <span className="text-slate-300">+90 (212) 555 01 42</span>
+                  <span className="text-slate-300">+90 (555) 555 55 55</span>
                 </div>
               </li>
               <li className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-slate-500 shrink-0 mt-0.5" aria-hidden="true" />
                 <div>
                   <span className="block text-xs text-slate-500">Ofis Konumu</span>
-                  <span className="text-slate-300">Levent Mah. Büyükdere Cad. No: 182, Beşiktaş / İstanbul</span>
+                  <span className="text-slate-300">Levent Mah. Büyükdere Cad. No: 00, Beşiktaş / İstanbul</span>
                 </div>
               </li>
             </ul>
