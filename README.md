@@ -115,10 +115,11 @@ npm run lint
 
 ---
 
-## 5. Canlı Dağıtım (Vercel)
+## 5. Canlı Dağıtım (Vercel) ve Kaynak Kodu
 
-- Canlı URL: [https://contractcheck-chi.vercel.app](https://contractcheck-chi.vercel.app)
-- Son Teslim Commit Kimliği: `a7bf3f478bc186c7292a223600bbc4a4edefbe9b`
+- **Canlı URL:** [https://contractcheck-chi.vercel.app](https://contractcheck-chi.vercel.app)
+- **GitHub Deposu (Private):** [https://github.com/YusufUzeyir/ContractCheck](https://github.com/YusufUzeyir/ContractCheck)
+- **Son Teslim Commit Kimliği:** `3cb62ff2e126411eb608e1f0571d49d6fa7427d0`
 
 ---
 
